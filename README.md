@@ -61,12 +61,11 @@ Connection SSID: CapaCiTi Candidates 5GHz
 Protocol: Wi-Fi 5 (802.11ac)
 
 2. Problem Identification
-I simulated a connectivity failure to demonstrate the troubleshooting workflow. I attempted to reach an external host (https://www.google.com/url?sa=E&source=gmail&q=google.com) via the Command Prompt.
+I simulated a connectivity failure to demonstrate the troubleshooting workflow. I attempted to reach an external host via the Command Prompt.
 
 Command Run: ping google.com
 
-Result: The request failed with the error: "Ping request could not find host https://www.google.com/url?sa=E&source=gmail&q=google.com."
-
+Result: The request failed with the error: "Ping request could not find host.
 Observation: This confirmed that while the hardware was active, the system could not resolve web addresses.
 
 3. Root Cause Analysis
