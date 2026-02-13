@@ -21,6 +21,7 @@ The system was unable to connect to the internet. While the Wi-Fi icon indicated
 I attempted to ping Google to check connectivity. The request failed immediately, indicating a name resolution or connectivity issue.
 
 ![Failed Ping Test](Err1.png)
+<img width="1082" height="515" alt="err4" src="https://github.com/user-attachments/assets/39b868f5-2cf1-46e1-b5ae-ee0a85ca7424" />
 
 ---
 
@@ -35,6 +36,8 @@ I ran `ipconfig /all` to inspect the network configuration. I discovered that **
 I utilized the **Windows Network Diagnostics** tool to reset the adapter settings. The tool automatically identified that DHCP was disabled and re-enabled it.
 
 ![Resolution via Windows Troubleshooter](Err5.png)
+<img width="881" height="776" alt="ssss" src="https://github.com/user-attachments/assets/df85b4b1-3429-4e3c-a310-0249214cd51f" />
+
 
 **Final Verification:** After the troubleshooter finished, I successfully flushed the DNS and verified that internet access was restored.
 
